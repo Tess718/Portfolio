@@ -364,7 +364,8 @@
           <div class="col-lg-6 mt-3 mt-md-0" data-aos="fade-left" data-aos-duration="3000">
             <h3 class="text-uppercase">Estimate your project? <br> Let me know here.</h3>
     
-            <form action="" class="d-flex flex-column mt-5">
+            <form action="https://api.web3forms.com/submit" method="POST" class="d-flex flex-column mt-5">
+              <input type="hidden" name="access_key" value="82562d9e-44d6-4b92-94bc-911ae587ab49">
               <label for="name">What's your name?</label>
               <input type="text" name="name" class="bg-transparent border-top-0 border-start-0 border-end-0 border-bottom-3 border-white mb-3 text-white p-1" style="outline: none;">
     
@@ -372,7 +373,7 @@
               <input type="email" name="email" class="bg-transparent border-top-0 border-start-0 border-end-0 border-bottom-3 border-white mb-3 text-white p-1" style="outline: none;">
     
               <label for="project">Tell me about your project</label>
-              <textarea name="project" id="project" name="project" class="bg-transparent border-top-0 border-start-0 border-end-0 border-bottom-3 border-white mb-3 text-white p-1"></textarea>
+              <textarea name="project" id="project" class="bg-transparent border-top-0 border-start-0 border-end-0 border-bottom-3 border-white mb-3 text-white p-1"></textarea>
     
               <button class="btn btn-outline-light rounded-3 w-25 p-3 mt-3 border-3 hrtxt">Submit</button>
             </form>
