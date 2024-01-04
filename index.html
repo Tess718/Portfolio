@@ -38,7 +38,7 @@
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="bi bi-list text-white fs-3"></i>
               </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
+              <div class="collapse navbar-collapse p-3 p-md-0 rounded-3 rounded-md-0 border-3 border-white border-md-0" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                   <li class="nav-item">
                     <a class="nav-link text-uppercase text-white" aria-current="page" href="#" id="nav">Home</a>
@@ -353,7 +353,7 @@
     <div id="form">
       <div class="container">
         <div class="row justify-content-between">
-          <div class="col-lg-4 my-auto" data-aos="fade-right" data-aos-duration="3000">
+          <div class="col-lg-4 my-auto" data-aos="fade-right" data-aos-duration="1000">
             <div class="formtxt">
               <h3 class="protxt text-uppercase">Got a project? <br>Let's talk.</h3>
     
@@ -361,7 +361,7 @@
     
             </div>
           </div>
-          <div class="col-lg-6 mt-3 mt-md-0" data-aos="fade-left" data-aos-duration="3000">
+          <div class="col-lg-6 mt-3 mt-md-0" data-aos="fade-left" data-aos-duration="1000">
             <h3 class="text-uppercase">Estimate your project? <br> Let me know here.</h3>
     
             <form action="https://api.web3forms.com/submit" method="POST" class="d-flex flex-column mt-5">
@@ -375,7 +375,7 @@
               <label for="project">Tell me about your project</label>
               <textarea name="project" id="project" class="bg-transparent border-top-0 border-start-0 border-end-0 border-bottom-3 border-white mb-3 text-white p-1"></textarea>
     
-              <button class="btn btn-outline-light rounded-3 w-25 p-3 mt-3 border-3 hrtxt">Submit</button>
+              <button class="btn btn-outline-light rounded-3 subtn p-3 mt-3 border-3 hrtxt">Submit</button>
             </form>
           </div>
         </div>
@@ -452,7 +452,7 @@ let loader = document.querySelector('.loader');
 
 window.setTimeout(() => {
 loader.style.display = "none";
-}, 5000);
+}, 100);
 
   gsap.registerPlugin(ScrollTrigger);
 

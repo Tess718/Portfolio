@@ -495,6 +495,9 @@ html{
 /* #about .pin-spacer{
     background-color: #222222;
 } */
+.subtn{
+    width: 25%;
+}
 
 @media(max-width: 767px){
     #hero{
@@ -528,6 +531,13 @@ html{
     }
     .hrbtn{
         width: 150px;
+    }
+    .subtn{
+        width: 50%;
+    }
+    .navbar-collapse{
+        background-color: rgba(0, 0, 0, 0.8);
+        border: 3px solid #fff;
     }
     /* ------------- Typography ----------- */
     .navbar-brand{
