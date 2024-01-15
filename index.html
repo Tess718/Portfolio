@@ -510,8 +510,7 @@ document.addEventListener('click', () => {
     }, 500)
 })
 
-const throttleScroll = _.throttle(() => {
-  gsap.registerPlugin(ScrollTrigger)
+gsap.registerPlugin(ScrollTrigger)
 
 const splitTypes = document.querySelectorAll('.reveal-type')
 
@@ -532,11 +531,6 @@ splitTypes.forEach((char,i) => {
     stagger: 0.1
   })
 })
-
-}, 200);
-
-window.addEventListener('scroll', throttleScroll);
-
 
 
 
